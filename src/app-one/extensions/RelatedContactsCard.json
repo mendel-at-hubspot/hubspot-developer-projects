@@ -1,0 +1,12 @@
+{
+  "type": "crm-card",
+  "data": {
+    "title": "Related Contacts",
+    "uid": "related_contacts_card",
+    "location": "crm.record.tab",
+    "module": {
+      "file": "RelatedContactsCard.jsx"
+    },
+    "objectTypes": [{ "name": "contacts" }]
+  }
+}

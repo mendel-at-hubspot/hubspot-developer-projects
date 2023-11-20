@@ -1,0 +1,12 @@
+{
+  "appFunctions": {
+    "findCompetitors": {
+      "file": "findCompetitors.js",
+      "secrets": []
+    },
+    "relocate": {
+      "file": "relocate.js",
+      "secrets": []
+    }
+  }
+}

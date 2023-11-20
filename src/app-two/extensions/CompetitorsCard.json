@@ -1,0 +1,12 @@
+{
+  "type": "crm-card",
+  "data": {
+    "title": "Competitors",
+    "uid": "competitors_card",
+    "location": "crm.record.tab",
+    "module": {
+      "file": "CompetitorsCard.jsx"
+    },
+    "objectTypes": [{ "name": "companies" }]
+  }
+}

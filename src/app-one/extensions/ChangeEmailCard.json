@@ -1,0 +1,12 @@
+{
+  "type": "crm-card",
+  "data": {
+    "title": "Change Email",
+    "uid": "change_email_card",
+    "location": "crm.record.tab",
+    "module": {
+      "file": "ChangeEmailCard.jsx"
+    },
+    "objectTypes": [{ "name": "contacts" }]
+  }
+}

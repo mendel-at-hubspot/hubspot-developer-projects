@@ -1,0 +1,19 @@
+{
+  "name": "Company competitors & relocate",
+  "description": "Performs some companies operations",
+  "uid": "company_competitors_and_relocate",
+  "scopes": ["crm.objects.companies.read", "crm.objects.companies.write"],
+  "public": false,
+  "extensions": {
+    "crm": {
+      "cards": [
+        {
+          "file": "extensions/CompetitorsCard.json"
+        },
+        {
+          "file": "extensions/RelocateCard.json"
+        }
+      ]
+    }
+  }
+}

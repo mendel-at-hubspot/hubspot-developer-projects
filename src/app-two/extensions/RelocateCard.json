@@ -1,0 +1,12 @@
+{
+  "type": "crm-card",
+  "data": {
+    "title": "Relocate",
+    "uid": "relocate_card",
+    "location": "crm.record.tab",
+    "module": {
+      "file": "RelocateCard.jsx"
+    },
+    "objectTypes": [{ "name": "companies" }]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "appFunctions": {
+    "changeEmail": {
+      "file": "changeEmail.js",
+      "secrets": []
+    },
+    "findRelatedContacts": {
+      "file": "findRelatedContacts.js",
+      "secrets": []
+    }
+  }
+}
