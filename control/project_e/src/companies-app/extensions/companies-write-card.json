@@ -1,0 +1,12 @@
+{
+  "type": "crm-card",
+  "data": {
+    "title": "companies Write Card",
+    "uid": "companies_write_card",
+    "location": "crm.record.tab",
+    "module": {
+      "file": "companiesWriteCard.jsx"
+    },
+    "objectTypes": [{ "name": "companies" }]
+  }
+}

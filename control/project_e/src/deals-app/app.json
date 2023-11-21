@@ -1,0 +1,19 @@
+{
+  "name": "My deals app",
+  "description": "",
+  "uid": "deals-app",
+  "scopes": ["crm.objects.deals.read", "crm.objects.deals.write"],
+  "public": false,
+  "extensions": {
+    "crm": {
+      "cards": [
+        {
+          "file": "extensions/deals-read-card.json"
+        },
+        {
+          "file": "extensions/deals-write-card.json"
+        }
+      ]
+    }
+  }
+}

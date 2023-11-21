@@ -1,0 +1,12 @@
+{
+  "appFunctions": {
+    "myFunc_contacts_read": {
+      "file": "contacts-read.js",
+      "secrets": []
+    },
+    "myFunc_contacts_write": {
+      "file": "contacts-write.js",
+      "secrets": []
+    }
+  }
+}

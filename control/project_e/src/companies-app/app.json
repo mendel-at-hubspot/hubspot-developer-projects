@@ -1,0 +1,19 @@
+{
+  "name": "My companies app",
+  "description": "",
+  "uid": "companies-app",
+  "scopes": ["crm.objects.companies.read", "crm.objects.companies.write"],
+  "public": false,
+  "extensions": {
+    "crm": {
+      "cards": [
+        {
+          "file": "extensions/companies-read-card.json"
+        },
+        {
+          "file": "extensions/companies-write-card.json"
+        }
+      ]
+    }
+  }
+}

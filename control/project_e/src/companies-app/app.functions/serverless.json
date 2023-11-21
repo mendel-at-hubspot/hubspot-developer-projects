@@ -1,0 +1,12 @@
+{
+  "appFunctions": {
+    "myFunc_companies_read": {
+      "file": "companies-read.js",
+      "secrets": []
+    },
+    "myFunc_companies_write": {
+      "file": "companies-write.js",
+      "secrets": []
+    }
+  }
+}

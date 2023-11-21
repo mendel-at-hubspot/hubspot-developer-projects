@@ -1,0 +1,19 @@
+{
+  "name": "My Contacts app",
+  "description": "",
+  "uid": "contacts-app",
+  "scopes": ["crm.objects.contacts.read", "crm.objects.contacts.write"],
+  "public": false,
+  "extensions": {
+    "crm": {
+      "cards": [
+        {
+          "file": "extensions/contacts-read-card.json"
+        },
+        {
+          "file": "extensions/contacts-write-card.json"
+        }
+      ]
+    }
+  }
+}

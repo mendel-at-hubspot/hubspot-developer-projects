@@ -1,0 +1,12 @@
+{
+  "type": "crm-card",
+  "data": {
+    "title": "deals Read Card",
+    "uid": "deals_read_card",
+    "location": "crm.record.tab",
+    "module": {
+      "file": "dealsReadCard.jsx"
+    },
+    "objectTypes": [{ "name": "deals" }]
+  }
+}
