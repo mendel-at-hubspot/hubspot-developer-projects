@@ -1,8 +1,9 @@
 {
   "type": "crm-card",
+  "uid": "my_crm_card",
+  "label": "My Crm Card",
+  "auth": "project_auth",
   "data": {
-    "title": "My Crm Card",
-    "uid": "my_crm_card",
     "location": "crm.record.tab",
     "module": {
       "file": "CrmCard.jsx"

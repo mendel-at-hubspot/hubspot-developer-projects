@@ -1,0 +1,9 @@
+{
+  "type": "cms-js-rendering",
+  "uid": "my_cms_js",
+  "label": "My CMS JS",
+  "auth": "project_auth",
+  "data": {
+    "outputPath": ""
+  }
+}

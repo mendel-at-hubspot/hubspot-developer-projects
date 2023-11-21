@@ -1,0 +1,14 @@
+{
+  "type": "serverless",
+  "uid": "my_project_functions",
+  "label": "My Project functions",
+  "auth": "project_auth",
+  "data": {
+    "functions": {
+      "myFunc": {
+        "file": "function.js",
+        "secrets": []
+      }
+    }
+  }
+}
