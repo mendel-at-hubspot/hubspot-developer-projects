@@ -1,3 +1,3 @@
-exports.main = (context = {}, sendResponse) => {
-  sendResponse("Hello");
+exports.main = async (context = {}) => {
+  return "Hello";
 };
