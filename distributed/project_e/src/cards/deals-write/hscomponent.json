@@ -1,11 +1,12 @@
 {
   "type": "crm-card",
+  "uid": "deals_write_card",
+  "label": "Deals Write Card",
+  "auth": "deals_auth",
   "data": {
-    "title": "deals Read Card",
-    "uid": "deals_read_card",
     "location": "crm.record.tab",
     "module": {
-      "file": "dealsReadCard.jsx"
+      "file": "DealsWrite.jsx"
     },
     "objectTypes": [{ "name": "deals" }]
   }

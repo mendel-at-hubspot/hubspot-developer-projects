@@ -1,11 +1,12 @@
 {
   "type": "crm-card",
+  "uid": "contacts_read_card",
+  "label": "Contacts Read Card",
+  "auth": "contacts_auth",
   "data": {
-    "title": "Contacts Read Card",
-    "uid": "contacts_read_card",
     "location": "crm.record.tab",
     "module": {
-      "file": "ContactsReadCard.jsx"
+      "file": "ContactsRead.jsx"
     },
     "objectTypes": [{ "name": "contacts" }]
   }

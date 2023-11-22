@@ -1,11 +1,12 @@
 {
   "type": "crm-card",
+  "uid": "companies_read_card",
+  "label": "Companies Read Card",
+  "auth": "companies_auth",
   "data": {
-    "title": "companies Read Card",
-    "uid": "companies_read_card",
     "location": "crm.record.tab",
     "module": {
-      "file": "companiesReadCard.jsx"
+      "file": "CompaniesRead.jsx"
     },
     "objectTypes": [{ "name": "companies" }]
   }

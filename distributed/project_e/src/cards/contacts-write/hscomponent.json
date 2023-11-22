@@ -1,11 +1,12 @@
 {
   "type": "crm-card",
+  "uid": "contacts_write_card",
+  "label": "Contacts Write Card",
+  "auth": "contacts_auth",
   "data": {
-    "title": "Contacts Write Card",
-    "uid": "contacts_write_card",
     "location": "crm.record.tab",
     "module": {
-      "file": "ContactsWriteCard.jsx"
+      "file": "ContactsWrite.jsx"
     },
     "objectTypes": [{ "name": "contacts" }]
   }
