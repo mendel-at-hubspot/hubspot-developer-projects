@@ -1,0 +1,12 @@
+{
+  "type": "crm-card",
+  "data": {
+    "title": "deals Write Card",
+    "uid": "deals_write_card",
+    "location": "crm.record.tab",
+    "module": {
+      "file": "dealsWriteCard.jsx"
+    },
+    "objectTypes": [{ "name": "deals" }]
+  }
+}

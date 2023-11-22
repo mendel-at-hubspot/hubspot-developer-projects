@@ -1,0 +1,18 @@
+{
+  "type": "serverless",
+  "uid": "contacts_functions",
+  "label": "My Contacts functions",
+  "auth": "contacts_auth",
+  "data": {
+    "functions": {
+      "myFunc_contacts_read": {
+        "file": "contacts-read.js",
+        "secrets": []
+      },
+      "myFunc_contacts_write": {
+        "file": "contacts-write.js",
+        "secrets": []
+      }
+    }
+  }
+}

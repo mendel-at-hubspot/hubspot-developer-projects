@@ -1,0 +1,18 @@
+{
+  "type": "serverless",
+  "uid": "deals_functions",
+  "label": "My Deals functions",
+  "auth": "deals_auth",
+  "data": {
+    "functions": {
+      "myFunc_deals_read": {
+        "file": "deals-read.js",
+        "secrets": []
+      },
+      "myFunc_deals_write": {
+        "file": "deals-write.js",
+        "secrets": []
+      }
+    }
+  }
+}

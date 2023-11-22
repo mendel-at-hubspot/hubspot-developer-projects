@@ -1,0 +1,18 @@
+{
+  "type": "serverless",
+  "uid": "companies_functions",
+  "label": "My Companies functions",
+  "auth": "companies_auth",
+  "data": {
+    "functions": {
+      "myFunc_companies_read": {
+        "file": "companies-read.js",
+        "secrets": []
+      },
+      "myFunc_companies_write": {
+        "file": "companies-write.js",
+        "secrets": []
+      }
+    }
+  }
+}

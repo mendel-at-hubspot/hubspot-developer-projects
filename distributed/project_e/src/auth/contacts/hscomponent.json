@@ -1,0 +1,10 @@
+{
+  "type": "auth",
+  "label": "My Contacts Auth",
+  "uid": "contacts_auth",
+  "data": {
+    "description": "",
+    "scopes": ["crm.objects.contacts.read", "crm.objects.contacts.write"],
+    "public": false
+  }
+}

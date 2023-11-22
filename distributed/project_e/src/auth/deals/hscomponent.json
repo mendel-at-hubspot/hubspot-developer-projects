@@ -1,0 +1,10 @@
+{
+  "type": "auth",
+  "label": "My Deals Auth",
+  "uid": "deals_auth",
+  "data": {
+    "description": "",
+    "scopes": ["crm.objects.deals.read", "crm.objects.deals.write"],
+    "public": false
+  }
+}

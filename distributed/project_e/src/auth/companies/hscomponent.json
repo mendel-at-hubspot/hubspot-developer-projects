@@ -1,0 +1,10 @@
+{
+  "type": "auth",
+  "label": "My Companies Auth",
+  "uid": "companies_auth",
+  "data": {
+    "description": "",
+    "scopes": ["crm.objects.companies.read", "crm.objects.companies.write"],
+    "public": false
+  }
+}
