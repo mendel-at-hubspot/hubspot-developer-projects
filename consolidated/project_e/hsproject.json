@@ -1,0 +1,117 @@
+{
+  "name": "project_e",
+  "platformVersion": "2023.2",
+  "project": {
+    "my_contacts_app": {
+      "type": "app",
+      "name": "My contacts app",
+      "description": "",
+      "scopes": ["crm.objects.contacts.read", "crm.objects.contacts.write"],
+      "public": false
+    },
+    "my_companies_app": {
+      "type": "app",
+      "name": "My companies app",
+      "description": "",
+      "scopes": ["crm.objects.companies.read", "crm.objects.companies.write"],
+      "public": false
+    },
+    "my_deals_app": {
+      "type": "app",
+      "name": "My deals app",
+      "description": "",
+      "scopes": ["crm.objects.deals.read", "crm.objects.deals.write"],
+      "public": false
+    },
+    "contacts_read_card": {
+      "type": "crm-card",
+      "title": "Contacts read Card",
+      "app": "my_contacts_app",
+      "location": "crm.record.tab",
+      "file": "./src/extensions/ContactsReadCard.jsx",
+      "objectTypes": [{ "name": "contacts" }]
+    },
+    "contacts_write_card": {
+      "type": "crm-card",
+      "title": "Contacts write Card",
+      "app": "my_contacts_app",
+      "location": "crm.record.tab",
+      "file": "./src/extensions/ContactsWriteCard.jsx",
+      "objectTypes": [{ "name": "contacts" }]
+    },
+    "companies_read_card": {
+      "type": "crm-card",
+      "title": "Companies read Card",
+      "app": "my_companies_app",
+      "location": "crm.record.tab",
+      "file": "./src/extensions/CompaniesReadCard.jsx",
+      "objectTypes": [{ "name": "companies" }]
+    },
+    "companies_write_card": {
+      "type": "crm-card",
+      "title": "Companies write Card",
+      "app": "my_companies_app",
+      "location": "crm.record.tab",
+      "file": "./src/extensions/CompaniesWriteCard.jsx",
+      "objectTypes": [{ "name": "companies" }]
+    },
+    "deals_read_card": {
+      "type": "crm-card",
+      "title": "Deals read Card",
+      "app": "my_deals_app",
+      "location": "crm.record.tab",
+      "file": "./src/extensions/DealsReadCard.jsx",
+      "objectTypes": [{ "name": "deals" }]
+    },
+    "deals_write_card": {
+      "type": "crm-card",
+      "title": "Deals write Card",
+      "app": "my_deals_app",
+      "location": "crm.record.tab",
+      "file": "./src/extensions/DealsWriteCard.jsx",
+      "objectTypes": [{ "name": "deals" }]
+    },
+    "myFunc_contacts_read": {
+      "type": "serverless-function",
+      "app": "my_contacts_app",
+      "file": "./src/serverless/contacts-read.js",
+      "secrets": []
+    },
+    "myFunc_contacts_write": {
+      "type": "serverless-function",
+      "app": "my_contacts_app",
+      "file": "./src/serverless/contacts-write.js",
+      "secrets": []
+    },
+    "myFunc_companies_read": {
+      "type": "serverless-function",
+      "app": "my_companies_app",
+      "file": "./src/serverless/companies-read.js",
+      "secrets": []
+    },
+    "myFunc_companies_write": {
+      "type": "serverless-function",
+      "app": "my_companies_app",
+      "file": "./src/serverless/companies-write.js",
+      "secrets": []
+    },
+    "myFunc_deals_read": {
+      "type": "serverless-function",
+      "app": "my_deals_app",
+      "file": "./src/serverless/deals-read.js",
+      "secrets": []
+    },
+    "myFunc_deals_write": {
+      "type": "serverless-function",
+      "app": "my_deals_app",
+      "file": "./src/serverless/deals-write.js",
+      "secrets": []
+    },
+    "cms_react": {
+      "type": "cms-js",
+      "label": "CMS React",
+      "files": "./src/cms-assets",
+      "outputPath": ""
+    }
+  }
+}

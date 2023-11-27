@@ -14,13 +14,13 @@
       "title": "My Crm Card",
       "app": "my_private_app",
       "location": "crm.record.tab",
-      "file": "./src/app/extensions/Example.jsx",
+      "file": "./src/extensions/Example.jsx",
       "objectTypes": [{ "name": "contacts" }]
     },
     "myFunc": {
       "type": "serverless-function",
       "app": "my_private_app",
-      "file": "./src/app/app.functions/example-function.js",
+      "file": "./src/serverless/function.js",
       "secrets": []
     },
     "cms_react": {
