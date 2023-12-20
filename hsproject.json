@@ -1,0 +1,78 @@
+{
+  "name": "example_project",
+  "platformVersion": "2023.2",
+  "project": {
+    "contacts_search_and_change": {
+      "type": "app",
+      "label": "Contacts Search & Change",
+      "description": "Performs some contacts operations",
+      "scopes": ["crm.objects.contacts.read", "crm.objects.contacts.write"],
+      "public": false
+    },
+    "company_competitors_and_relocate": {
+      "type": "app",
+      "label": "Company competitors & relocate",
+      "description": "Performs some companies operations",
+      "scopes": ["crm.objects.companies.read", "crm.objects.companies.write"],
+      "public": false
+    },
+    "related_contacts_card": {
+      "type": "crm-card",
+      "label": "Related Contacts",
+      "objectTypes": [{ "name": "contacts" }],
+      "location": "crm.record.tab",
+      "file": "./src/extensions/RelatedContactsCard.jsx"
+    },
+    "change_email_card": {
+      "type": "crm-card",
+      "label": "Change Email",
+      "objectTypes": [{ "name": "contacts" }],
+      "location": "crm.record.tab",
+      "file": "./src/extensions/ChangeEmailCard.jsx"
+    },
+    "competitors_card": {
+      "type": "crm-card",
+      "label": "Competitors",
+      "objectTypes": [{ "name": "companies" }],
+      "location": "crm.record.tab",
+      "file": "./src/extensions/CompetitorsCard.jsx"
+    },
+    "relocate_card": {
+      "type": "crm-card",
+      "label": "Relocate",
+      "objectTypes": [{ "name": "companies" }],
+      "location": "crm.record.tab",
+      "file": "./src/extensions/RelocateCard.jsx"
+    },
+    "findRelatedContacts": {
+      "type": "serverless-function",
+      "app": "contacts_search_and_change",
+      "file": "./src/serverless/findRelatedContacts.js",
+      "secrets": []
+    },
+    "changeEmail": {
+      "type": "serverless-function",
+      "app": "contacts_search_and_change",
+      "file": "./src/serverless/changeEmail.js",
+      "secrets": []
+    },
+    "findCompetitors": {
+      "type": "serverless-function",
+      "app": "company_competitors_and_relocate",
+      "file": "./src/serverless/findCompetitors.js",
+      "secrets": []
+    },
+    "relocate": {
+      "type": "serverless-function",
+      "app": "company_competitors_and_relocate",
+      "file": "./src/serverless/relocate.js",
+      "secrets": []
+    },
+    "cms_react": {
+      "type": "cms-js",
+      "label": "CMS React",
+      "files": "./src/cms-assets",
+      "outputPath": ""
+    }
+  }
+}
