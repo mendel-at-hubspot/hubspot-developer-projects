@@ -1,0 +1,8 @@
+{
+  "type": "cms-building-blocks",
+  "uid": "cms_react",
+  "label": "CMS React",
+  "data": {
+    "outputPath": ""
+  }
+}

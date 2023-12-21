@@ -1,0 +1,8 @@
+{
+  "type": "auth",
+  "label": "Contacts Search & Change",
+  "description": "Performs some contacts operations",
+  "uid": "contacts_search_and_change",
+  "scopes": ["crm.objects.contacts.read", "crm.objects.contacts.write"],
+  "public": false
+}

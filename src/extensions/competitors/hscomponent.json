@@ -1,0 +1,13 @@
+{
+  "type": "crm-card",
+  "uid": "competitors_card",
+  "label": "Competitors",
+  "auth": "company_competitors_and_relocate",
+  "data": {
+    "location": "crm.record.tab",
+    "module": {
+      "file": "CompetitorsCard.jsx"
+    },
+    "objectTypes": [{ "name": "companies" }]
+  }
+}

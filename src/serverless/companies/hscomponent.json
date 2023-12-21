@@ -1,0 +1,18 @@
+{
+  "type": "serverless",
+  "uid": "companies_functions",
+  "label": "Companies related functions",
+  "auth": "company_competitors_and_relocate",
+  "data": {
+    "functions": {
+      "findCompetitors": {
+        "file": "findCompetitors.js",
+        "secrets": []
+      },
+      "relocate": {
+        "file": "relocate.js",
+        "secrets": []
+      }
+    }
+  }
+}

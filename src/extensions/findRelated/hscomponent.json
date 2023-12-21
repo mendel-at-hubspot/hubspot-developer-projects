@@ -1,0 +1,13 @@
+{
+  "type": "crm-card",
+  "uid": "related_contacts_card",
+  "label": "Related Contacts",
+  "auth": "contacts_search_and_change",
+  "data": {
+    "location": "crm.record.tab",
+    "module": {
+      "file": "RelatedContactsCard.jsx"
+    },
+    "objectTypes": [{ "name": "contacts" }]
+  }
+}
