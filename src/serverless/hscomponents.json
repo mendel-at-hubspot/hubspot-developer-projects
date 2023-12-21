@@ -1,0 +1,24 @@
+{
+  "type": "serverless",
+  "components": {
+    "changeEmail": {
+      "file": "changeEmail.js",
+      "auth": "contacts_search_and_change"
+    },
+    "findCompetitors": {
+      "file": "findCompetitors.js",
+      "auth": "company_competitors_and_relocate"
+    },
+    "findRelatedContacts": {
+      "file": "findRelatedContacts.js",
+      "auth": "contacts_search_and_change"
+    },
+    "relocate": {
+      "file": "relocate.js",
+      "auth": "company_competitors_and_relocate"
+    }
+  },
+  "sharedDefaults": {
+    "secrets": []
+  }
+}

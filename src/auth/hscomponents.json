@@ -1,0 +1,18 @@
+{
+  "type": "auth",
+  "components": {
+    "company_competitors_and_relocate": {
+      "label": "Company competitors & relocate",
+      "description": "Performs some companies operations",
+      "scopes": ["crm.objects.companies.read", "crm.objects.companies.write"]
+    },
+    "contacts_search_and_change": {
+      "label": "Contacts Search & Change",
+      "description": "Performs some contacts operations",
+      "scopes": ["crm.objects.contacts.read", "crm.objects.contacts.write"]
+    }
+  },
+  "sharedDefaults": {
+    "public": false
+  }
+}

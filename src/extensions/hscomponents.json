@@ -1,0 +1,28 @@
+{
+  "type": "crm-card",
+  "components": {
+    "change_email": {
+      "auth": "contacts_search_and_change",
+      "file": "ChangeEmailCard.jsx",
+      "objectTypes": [{ "name": "contacts" }]
+    },
+    "competitors": {
+      "auth": "company_competitors_and_relocate",
+      "file": "CompetitorsCard.jsx",
+      "objectTypes": [{ "name": "companies" }]
+    },
+    "related_contacts": {
+      "auth": "contacts_search_and_change",
+      "file": "RelatedContactsCard.jsx",
+      "objectTypes": [{ "name": "contacts" }]
+    },
+    "relocate": {
+      "auth": "company_competitors_and_relocate",
+      "file": "RelocateCard.jsx",
+      "objectTypes": [{ "name": "companies" }]
+    }
+  },
+  "sharedDefaults": {
+    "location": "crm.record.tab"
+  }
+}
