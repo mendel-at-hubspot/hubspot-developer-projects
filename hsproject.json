@@ -19,6 +19,7 @@
     "related_contacts_card": {
       "type": "crm-card",
       "label": "Related Contacts",
+      "app": "contacts_search_and_change",
       "objectTypes": [{ "name": "contacts" }],
       "location": "crm.record.tab",
       "file": "./src/extensions/RelatedContactsCard.jsx"
@@ -26,6 +27,7 @@
     "change_email_card": {
       "type": "crm-card",
       "label": "Change Email",
+      "app": "contacts_search_and_change",
       "objectTypes": [{ "name": "contacts" }],
       "location": "crm.record.tab",
       "file": "./src/extensions/ChangeEmailCard.jsx"
@@ -33,6 +35,7 @@
     "competitors_card": {
       "type": "crm-card",
       "label": "Competitors",
+      "app": "company_competitors_and_relocate",
       "objectTypes": [{ "name": "companies" }],
       "location": "crm.record.tab",
       "file": "./src/extensions/CompetitorsCard.jsx"
@@ -40,6 +43,7 @@
     "relocate_card": {
       "type": "crm-card",
       "label": "Relocate",
+      "app": "company_competitors_and_relocate",
       "objectTypes": [{ "name": "companies" }],
       "location": "crm.record.tab",
       "file": "./src/extensions/RelocateCard.jsx"
