@@ -71,12 +71,6 @@
       "app": "company_competitors_and_relocate",
       "file": "./src/serverless/relocate.js",
       "secrets": []
-    },
-    "cms_react": {
-      "type": "cms-js",
-      "label": "CMS React",
-      "files": "./src/cms-assets",
-      "outputPath": ""
     }
   }
 }
